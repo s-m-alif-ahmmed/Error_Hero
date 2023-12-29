@@ -5,7 +5,7 @@
 @endsection
 
 @section('meta_description')
-    <meta name="description" content="This is error hero blog website Home page.">
+    <meta name="description" content="This is error hero blog website home page.">
 @endsection
 
 @section('meta_keywords')
@@ -13,7 +13,7 @@
 @endsection
 
 @section('title')
-    Home
+    Error Hero
 @endsection
 
 @section('content')

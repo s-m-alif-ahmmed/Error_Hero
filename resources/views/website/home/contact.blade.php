@@ -1,11 +1,15 @@
 @extends('website.master')
 
+@section('meta_author')
+    <meta name="author" content="S M Alif Ahmmed">
+@endsection
+
 @section('meta_description')
-    <meta name="description" content="This is contact page.">
+    <meta name="description" content="This is error hero blog website contact page.">
 @endsection
 
 @section('meta_keywords')
-    <meta name="keywords" content="S M Alif Ahmmed, blog, ">
+    <meta name="keywords" content="Error Hero, Blog, Contact, Contact Us, Call, Mail, Inbox, , S M Alif Ahmmed.">
 @endsection
 
 

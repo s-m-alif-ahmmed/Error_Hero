@@ -52,7 +52,7 @@
                                                         <label for="name" class="form-label">Full Name</label>
                                                     </div>
                                                     <div class="col-md-9">
-                                                        <input type="text" class="form-control" name="name" id="name" value="{{Auth::user()->name}}" required />
+                                                        <input type="text" class="form-control bg-white" name="name" id="name" value="{{Auth::user()->name}}" disabled readonly />
                                                     </div>
                                                 </div>
                                             </div>
@@ -65,7 +65,7 @@
                                                         <label for="email" class="form-label">Email</label>
                                                     </div>
                                                     <div class="col-md-9">
-                                                        <input type="email" class="form-control" id="email" name="email" value="{{Auth::user()->email}}" required />
+                                                        <input type="email" class="form-control bg-white" id="email" name="email" value="{{Auth::user()->email}}" disabled readonly />
                                                     </div>
                                                 </div>
                                             </div>
@@ -78,7 +78,7 @@
                                                         <label for="email" class="form-label">Phone Number</label>
                                                     </div>
                                                     <div class="col-md-9">
-                                                        <input type="number" class="form-control" id="number" name="number" value="{{Auth::user()->number}}" required />
+                                                        <input type="number" class="form-control bg-white" id="number" name="number" value="{{Auth::user()->number}}" disabled readonly />
                                                     </div>
                                                 </div>
                                             </div>
@@ -91,7 +91,7 @@
                                                         <label for="email" class="form-label">Address</label>
                                                     </div>
                                                     <div class="col-md-9">
-                                                        <textarea type="text" class="form-control" id="address" name="address" required >{{Auth::user()->address}}</textarea>
+                                                        <textarea type="text" class="form-control bg-white" id="address" name="address" disabled readonly >{{Auth::user()->address}}</textarea>
                                                     </div>
                                                 </div>
                                             </div>

@@ -1,4 +1,5 @@
 @extends('admin.master')
+
 @section('title')
     Tags
 @endsection
